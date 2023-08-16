@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: royalblue;
+    color: #fff;
+}
+h1{
+    border: 1px solid rebeccapurple;
+    text-align: center;
+    font-size: 4rem;
+    padding: 10px;
+ 
+    background-image: linear-gradient(to top,royalblue,rgb(88, 87, 87));
+}
+p{
+    font-size: 20px;
+}
+.task{
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba( 255, 255, 255, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+display: flex;
+justify-content: space-between;
+}
+.icon{
+    font-size: 22px ;
+
+}
+.icon:hover{
+    font-size: 24px ;
+    transition: 0.2s;
+cursor: pointer;
+}
+.icon-star,.icon-bin{
+    opacity: 0.4;
+    font-size: 22px ;
+}
+.icon-star:hover{
+color: orange;
+opacity: 1;
+}
+.icon-bin:hover{
+    opacity: 1;
+    font-size: 24px;
+    color: rgb(167, 138, 84);
+}
+.icon-frown-o{
+    color: gold;
+}
+.icon-frown-o:hover{
+     opacity: 1;
+     font-size: 24px;
+     color: rgb(167, 138, 84);
+}
+.border{
+    border: 1px solid red;
+    text-align: center;
+}
+h2{
+    margin: 20px;
+    font-size: 35px;
+
+}
+input{
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 35vw;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+button{all:unset}
+.icon-upload{
+font-size: 35px;
+margin-left: 25px;
+position: relative;
+top: 10px;
+
+}
+.icon-upload:hover{
+    transition: 0.2s;
+    font-size: 40px;
+    color: green;
+}
+.dn{
+    display: none;
+}
+.icon-heart{
+    color: red;
+font-size: 23px;
+}
+.icon-heart:hover{
+    font-size: 25px;
+    transition: 0.2s;
+}
